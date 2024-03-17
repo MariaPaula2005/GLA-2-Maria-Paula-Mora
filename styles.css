@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* shadow */
+
+}
+
+.options-container {
+    text-align: center; 
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #333; 
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.product img {
+    max-width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    border-radius: 4px; /* Rounded corners for images */
+}
+
+.product h2 {
+    margin-top: 0;
+    color: #333; /* Dark gray text */
+}
+
+.product p {
+    margin: 0;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+select {
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+option {
+    padding: 5px;
+}
+
+.error-message {
+    color: #ff0000; /* Red text for error messages */
+    margin-top: 10px;
+}
+
+.loader {
+    border: 4px solid #f3f3f3; /* Light gray border */
+    border-top: 4px solid #3498db; /* Blue border for loader animation */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite; /* Spin animation */
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
